@@ -35,3 +35,5 @@ imagesEl.forEach(el => {
   el.style.maxWidth = '100%';
 });
 imagesEl[2].style.width = '300px';
+
+console.dir(imagesEl);

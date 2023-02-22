@@ -21,3 +21,5 @@ const createListIngredients = items => {
 
 const elements = createListIngredients(ingredients);
 ingredientsList.append(...elements);
+
+console.log(elements);
