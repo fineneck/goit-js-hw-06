@@ -6,9 +6,10 @@ const refs = {
 refs.input.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
-  refs.nameLabel.textContent = event.currentTarget.value;
+  event.currentTarget.value
+    ? refs.nameLabel.textContent = this.value
+    : refs.nameLabel.textContent = 'Anonymous';
 };
-
 
 
 // const onInputChange = event => refs.nameLabel.textContent = event.currentTarget.value;
