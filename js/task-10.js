@@ -33,4 +33,5 @@ function onBtnClickCreate() {
 
 function onBtnClickDestroy() { 
   boxes.innerHTML = '';
+  refs.input.value = '';
 };
